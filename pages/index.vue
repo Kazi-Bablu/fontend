@@ -1,3 +1,9 @@
 <template>
-<p>Home</p>
+    <p>Home</p>
 </template>
+
+<script>
+  export default {
+   // middleware: ['auth']
+  }
+</script>
