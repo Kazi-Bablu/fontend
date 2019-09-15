@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" mb-5>
     <nuxt-link to="/" class="navbar-brand">Frontend</nuxt-link>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -12,8 +12,13 @@
           <!--<a class="nav-link" href="#">Home </a>-->
           <nuxt-link to="/" class="nav-link">Home</nuxt-link>
         </li>
+        <li class="nav-item active">
+          <!--<a class="nav-link" href="#">Home </a>-->
+          <nuxt-link to="/topics" class="nav-link">Topics</nuxt-link>
+        </li>
+
         <li class="nav-item">
-          <nuxt-link to="/post" class="nav-link">Posts</nuxt-link>
+          <nuxt-link to="/dashboard" class="nav-link">Posts</nuxt-link>
         </li>
       </ul>
       <template v-if="!authenticated">

@@ -55,7 +55,7 @@
         //redirect
 
         this.$router.push({
-          path: this.$route.query.redirect || "/profile"
+          path: this.$router.query.redirect || "/dashboard"
         })
       }
     }
